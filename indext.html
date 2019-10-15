@@ -2,12 +2,13 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/reset.css">
     <link href="./assets/css/materialize.css">
-    
+
 
     <title>${show.me}</title>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -30,37 +31,73 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Blogs
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">funny </a>
-                        <a class="dropdown-item" href="#">comprehensive</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Straight forward</a>
-                    </div>
+        </div>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button type="button" class="btn btn-outline-dark">Submit </button>
+           </form>
         </div>
     </nav>
 </head>
 
 <body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        
+        .column {
+            float: left;
+            width: 33.33%;
+            margin: 10px;
+            padding: 20px;
+
+            height: 300px;
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+
+
     <!-- left side -->
+    <div class="row">
+
+        <div class="card" style="width: 18rem;" id="card-fixed">
+            <div class="card-body" style="background-color: darkviolet">
+                <h5 class="card-title" style="color: goldenrod">Helpful reddit feed?</h5>
+                <p class="card-text">im am making this long but this is where the reddit
+                    feed.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        
+       <div class="placeholder" style="height: 100%; width: 25rem;">
+       </div>
 
 
 
-
-    <!-- middle -->
-    <!-- <div id="demo" class="carousel slide" data-ride="carousel"> -->
-            <!-- Indicators
+        <!-- middle -->
+        <div class="column" style="background-color:#bbb;">
+            <h2>Column 2</h2>
+            <p>Some text..</p>
+        </div>
+        <!-- <div id="demo" class="carousel slide" data-ride="carousel"> 
+            <ol class="carousel-indicators"></ol>
             <ul class="carousel-indicators">
               <li data-target="#demo" data-slide-to="0" class="active"></li>
               <li data-target="#demo" data-slide-to="1"></li>
               <li data-target="#demo" data-slide-to="2"></li>
-            </ul> -->
-            <!-- The slideshow
+            </ul>
+            The slideshow
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="./assets/img/Screen Shot 2019-10-05 at 11.07.57 AM.png" alt="Los Angeles" width="1100" height="500">
@@ -83,37 +120,55 @@
 
 
 
-    <!-- right -->
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="https://giphy.com/search/coding" class="btn btn-primary">Go to Giphy</a>
+
+
+
+
+
+        <!-- right -->
+        <div class="column">
+            <div id="gif-cards" ">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body" style="background-color: black">
+                        <h5 class="card-title" style="color: gold">do you like coding?</h5>
+                        <iframe id="first-gif" src="https://giphy.com/embed/xT9IgzoKnwFNmISR8I" width="250" height="200"
+                            frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                        <a href="https://giphy.com/search/coding" class="btn btn-primary">Go to Giphy</a>
+                    </div>
+                </div>
+
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body" style="background-color: black">
+                        <h5 class="card-title" style="color: gold">What about hacking?</h5>
+                        <iframe id="second-gif" src="https://giphy.com/embed/o0vwzuFwCGAFO" width="250" height="200"
+                            frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                        <p><a href="https://giphy.com/gifs/cat-hacker-webs-o0vwzuFwCGAFO"></a>
+                            <a href="https://giphy.com/search/hacking" class="btn btn-primary">Go to Giphy</a>
+                    </div>
+                </div>
+
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body" style="background-color: black">
+                        <h5 class="card-title" style="color: gold">or studying?</h5>
+                        <iframe id="third-gif" src="https://giphy.com/embed/jBzO4OBN8oIms" width="250" height="200"
+                            frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                        <p><a href="https://giphy.com/gifs/book-read-reading-jBzO4OBN8oIms"></a></p>
+                        <a href="https://giphy.com/search/studing" class="btn btn-primary">Go to Giphy</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div class="card text-center" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="https://giphy.com/search/hacking" class="btn btn-primary">Go to Giphy</a>
-        </div>
-    </div>
-
-    <div class="card text-right" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="https://giphy.com/search/studing" class="btn btn-primary">Go to Giphy</a>
-        </div>
-    </div>
 
 
 
-   
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="./assets/java/app.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="./assets/java/app.js"></script>
 </body>
 
 </html>
