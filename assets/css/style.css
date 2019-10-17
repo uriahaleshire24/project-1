@@ -3,12 +3,11 @@
     font-size: 50px;
 }
 
-#gif-cards{
 
-}
 
 body{
-    background-color: rgb(63, 63, 63)
+    background-color: rgb(63, 63, 63);
+    background-image: url("../img/grey_wash_wall.png")
 }
 .nav-link{
     font-family: 'VT323', monospace;
@@ -21,7 +20,16 @@ body{
 }
 #gif-cards{
     font-family: 'VT323', monospace;
+    
 }
 #card-fixed{
     position: fixed;
+}
+#carouselExampleIndicators{
+    display: block;
+    margin: auto;
+    width: 45%;
+    size: 50px;
+    float: right;
+
 }
