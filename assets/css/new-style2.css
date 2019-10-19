@@ -1,0 +1,60 @@
+.footer {
+  position: sticky;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #050101;
+  text-align: center;
+  font-size: 25px;
+  
+}
+.column{
+  width: 100%;
+  margin: auto;
+}
+.footer-links{
+  color: gold;
+}
+#jumbo-tron{
+    text-align: center;
+}
+#nav-bar-name{
+    font-family:  'VT323', monospace;
+    font-size: 40px;
+    /* color: rgb(71, 71, 71,) */
+}
+.nav-link{
+  font-family:  'VT323', monospace;
+  font-size: 25px;
+}
+
+.carousel{
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-left: 430px;
+  width: 50%;
+  size: 50px;
+ outline-color: white
+}
+h1{
+  text-align: center;
+  color: gold;
+  font-family:  'VT323', monospace;
+}
+
+.center-div
+{
+     margin: centers;
+     width: 560px; 
+}
+body{
+  background-image: url("../img/folk-pattern-black.png")
+}
+#EBook{
+  color: gold;
+}
+#Resources{
+  color: navy
+}
