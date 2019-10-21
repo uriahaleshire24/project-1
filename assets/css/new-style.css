@@ -1,0 +1,99 @@
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #050101;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#oscilloscope {
+  height: 120px;
+  width: 280px;
+  margin-right: 1rem; 
+
+}
+
+#customSearch {
+  vertical-align: bottom;
+  width: 320px;
+  height: 1rem;
+  margin-bottom: 1rem;
+}
+
+#nav-bar-name {
+  font-family: 'VT323', monospace;
+  font-size: 3.5rem;
+  /* color: rgb(71, 71, 71) */
+}
+
+.nav-link {
+  font-family: 'VT323', monospace;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+#jumbo-tron {
+  text-align: center;
+  width: 100%;
+  opacity: .8;
+  /* max-width: 1300px; */
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+body {
+  background-image: url("../img/folk-pattern-black.png");
+  text-align: center;
+}
+
+#color-change {
+  background-color: blue;
+  background-blend-mode: luminosity;
+  width: 100%;
+}
+
+#EBook {
+  color: gold;
+}
+
+#Resources {
+  color: navy
+}
+
+
+.column {
+
+  width: 33.33%;
+  margin: 10px;
+  margin-left: 300px;
+  padding: 20px;
+  height: 300px;
+}
+
+
+
+#gif-computer, #card-body {
+  background-color: rgb(141, 149, 158);
+  
+}
+
+#gif-cards{
+  opacity: .928;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#navbarDropdown {}
