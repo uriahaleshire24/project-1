@@ -1,0 +1,43 @@
+{
+  "Books" : {
+    "Clean Code" : "https://www.investigatii.md/uploads/resurse/Clean_Code.pdf",
+    "Eloquent Javascript" : "http://eloquentjavascript.net/",
+    "How to Design Programs" : "https://www.htdp.org/",
+    "The Clean Coder" : "https://mycomputersciencebooks.files.wordpress.com/2017/08/prentice-hall-the-clean-coder.pdf",
+    "The Pragmatic Programmer" : "https://www.nceclusters.no/globalassets/filer/nce/diverse/the-pragmatic-programmer.pdf",
+    "You-Don't-Know-JS" : "https://github.com/getify/You-Dont-Know-JS/tree/1st-ed"
+  },
+  "Languages" : {
+    "C++" : {
+      "C++ Tutorials and Insights" : "https://www.codementor.io/community/topic/c_plus_plus?utm_source=bestprogramminglanguagefor&utm_medium=side-projects&utm_campaign=bestprogramminglanguagefor"
+    },
+    "HTML5" : {
+      "W3Schools - Semantic Elements" : "https://www.w3schools.com/html/html5_semantic_elements.asp"
+    },
+    "JavaScript" : {
+      "Resources" : {
+        "JavaScript Website" : "https://www.javascript.com/",
+        "Wes Bos" : "https://wesbos.com/category/javascript/"
+      }
+    }
+  },
+  "Reference" : {
+    "Github" : "https://github.com",
+    "Google" : "https://google.com",
+    "Google Developers" : "https://developers.google.com/",
+    "Mozilla Developer Network" : "https://developer.mozilla.org/en-US/"
+  },
+  "Resources" : {
+    "APIs" : {
+      "RapidAPI" : "https://rapidapi.com/"
+    },
+    "Cheatsheets" : {
+      "The Ultimate JavaScript Cheat Sheet" : "https://www.codementor.io/johnnyb/javascript-cheatsheet-fb54lz08k"
+    },
+    "Playlists" : {
+      "Traversy" : "https://www.youtube.com/watch?v=UB1O30fR-EE&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU",
+      "Traversy DOM Course" : "https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s",
+      "Traversy JS Crash Course" : "https://youtu.be/hdI2bqOjy3c?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX"
+    }
+  }
+}

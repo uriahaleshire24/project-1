@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCuMg9Lc4vMTP49cFkHb4Ztmo9fgTo6yhA",
+    authDomain: "project-1-5e0f6.firebaseapp.com",
+    databaseURL: "https://project-1-5e0f6.firebaseio.com",
+    projectId: "project-1-5e0f6",
+    storageBucket: "project-1-5e0f6.appspot.com",
+    messagingSenderId: "583345829914",
+    appId: "1:583345829914:web:290cda0c135cb4b91879a3",
+    measurementId: "G-5FNE4GKXJZ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
