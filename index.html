@@ -1,137 +1,119 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="./assets/java/new-javascript.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=VT323&amp;display=swap" rel="stylesheet">
-    <link href="./assets/css/new-style.css" rel="stylesheet">
-    
-
-
-
-    <title>${show.me}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=VT323&amp;display=swap" rel="stylesheet">
+  <link rel="icon" type="image/gif" href="assets\img\smallAstroSpin2.gif" />
+  <script async src="async-ads.js"></script>
+  <script async src="https://cse.google.com/cse.js?cx=016103869497562011073:yjrshszlo2l"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+  <link href="./assets/css/materialize.css">
+  <link href="./assets/css/style.css" rel="stylesheet">
+  <title>${"code.Division"}</title>
+  <!--changed title-->
 </head>
 
 <body>
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="color-change">
-            <a class="navbar-brand" id="nav-bar-name" href="./index.html">code.Division</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+  <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%;" id="color-change">
+      <img src="assets\img\oscil.webp" alt="oscilloscope" id="oscilloscope">
+      <!--added logo-->
+      <a class="navbar-brand" id="nav-bar-name" href="./index.html">code.Division</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" id="EBook" href="./index2.html">How-To's<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="Resources" href="./index3.html">Resources</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Blogs
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">Action</a>
-                              <a class="dropdown-item" href="#">Another action</a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                          </li>
-                
-                </ul>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" id="EBook" href="./index2.html">How-To's<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="Resources" href="./index3.html">Resources</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Blogs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="http://www.heydonworks.com">Heydonworks.com</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://medium.com/topic/technology">Medium.com</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://wesbos.com/courses/">Wesbos.com</a>
             </div>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button type="button" class="btn btn-outline-dark">Submit </button>
-            </form>
-        </nav>
-    </div>
+          </li>
+        </ul>
+        <div>
 
+          <div id="customSearch" class="gcse-search" tag="search"></div>
 
-    <div class="jumbotron jumbotron-fluid" id="jumbo-tron">
-        <div class="container">
-            <h1 class="display-4">New york Times</h1>
-            <p class="lead">Place the news feed right here</p>
-            <br><br><br><br>
         </div>
+      </div>
+
+    </nav>
+  </div>
+
+
+  <div class="jumbotron jumbotron-fluid" id="jumbo-tron">
+    <div class="container">
+      <h1 class="display-4">New york Times</h1>
+      <div class="row">
+        <div id="headliner" class="col-sm-12">
+          <!-- will append this class of div with articles in it to the div class row above -->
+        </div>
+      </div>
+      <p class="lead"></p>
+      <br><br><br><br>
     </div>
+  </div>
 
 
 
+  <div class="column">
+    <div id="gif-cards">
+      <div class="card card-fixed text-center">
+        <div id="card-body" class="card-body">
+          <h5 class="card-title" style="color: gold">do you like coding?</h5>
+          <div id="gifComputer">
+            <div id="gifComputer" style="width: 100%">
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-
-        .column {
-            
-            width: 33.33%;
-            margin: 10px;
-            margin-left: 300px;
-            padding: 20px;
-
-            height: 300px;
-        }
-
-
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-    </style>
-    <div class="column">
-            <div id="gif-cards">
-                    <div class="card card-fixed text-center" >
-                <div class="card-body" style="background-color: black;">
-                        <h5 class="card-title" style="color: gold">do you like coding?</h5>
-                        <div id="gifComputer" style="width: 100%">
-                        
-                        </div>
-                        <div>
-                        <a href="https://giphy.com/search/coding" class="btn btn-primary" style="z-index: 2;">Go to Giphy</a>
-                </div>
-             </div>
-             </div>
-
-             <div class="column">
-                    <div id="gif-cards">
-                            <div class="card card-fixed text-center" >
-                        <div class="card-body" style="background-color: black;">
-                                <h5 class="card-title" style="color: gold">do you like coding?</h5>
-                                <div id="gifComputer" style="width: 100%">
-                                
-                                </div>
-                                <div>
-                                <a href="https://giphy.com/search/coding" class="btn btn-primary" style="z-index: 2;">Go to Giphy</a>
-                        </div>
-                     </div>
-                     </div>
- 
-        <!-- <div class="card column" style="width: 18rem;">
-            <img src="../assets/img/Screen Shot 2019-10-12 at 1.30.56 PM.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text"></p>
             </div>
-        </div> -->
+            <div>
+              <a href="https://giphy.com/search/computer" class="btn btn-primary" id="gifBtn">Go to
+                Giphy</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+      </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+      </script>
+    <script src="./assets/java/new-javascript.js"></script>
 </body>
 
 
-
-<div class="footer">
-                <a class="footer-links" href="url"> Repos </a>
-                <a class="footer-links" href="url"> GitHub </a>
-                <a class="footer-links" href="url"> Links</a>
+<div id="footerOne" class="footer">
+  <a class="footer-links" href="https://github.com/collections/clean-code-linters"> { cleanCodeLinters }</a>
+  <a class="footer-links" href="https://github.com/collections/design-essentials"> { Design Tools } </a>
+  <a class="footer-links" href="https://github.com/collections/devops-tools"> { DevOps Tools } </a>
+  <a class="footer-links" href="https://www.freecodecamp.org/learn/"> { freeCodeCamp } </a>
+  <a class="footer-links" href="https://github.com/collections/front-end-javascript-frameworks"> { Front-end JavaScript
+    Frameworks } </a>
+  <a class="footer-links" href="https://github.com/collections/learn-to-code"> { Learn to Code } </a>
+  <a class="footer-links" href="https://github.com/collections/programming-languages"> { Programming Languages } </a>
+  <a class="footer-links" href="https://opensource.guide/"> { Open Source Guide }</a>
 </div>
-
